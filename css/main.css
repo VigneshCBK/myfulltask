@@ -41,6 +41,8 @@
     flex-direction: column;
     padding: 100px 15px;
     align-items: center;
+    opacity: 1;
+    transform: translateZ(0);
     background-image: url("../image/pic2.jpg");
 
 }
@@ -69,9 +71,38 @@
     margin: 10px;
     margin-left: 250px;
     color: #fff;
-    background: #7cc576;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    background-color: chartreuse;
+    overflow: visible;   
+}
+.side-1 img{
+    max-width: 70%;
+    height: auto;
+    margin-left: 100px;
+   
+
+}
+.side-2 h3{
+    font-weight: 400;
+    font-size: 34px;
+    color: #21413c;
+}
+.side-2 p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.about-flex{
+    display: flex;
+    padding-top: 70px;
+}
+.side-2-flex{
     
 }
-
+.icon i{
+    float: left;
+    font-size: 48px;
+    color: #7fffef;
+}
