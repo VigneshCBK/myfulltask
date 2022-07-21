@@ -82,8 +82,6 @@
     max-width: 70%;
     height: auto;
     margin-left: 100px;
-   
-
 }
 .side-2 h3{
     font-weight: 400;
@@ -98,11 +96,40 @@
     display: flex;
     padding-top: 70px;
 }
-.side-2-flex{
-    
+.icon-text{
+display: flex; 
+}
+.icon{
+    margin-right: 15px;
 }
 .icon i{
+    font-size: 60px;
+}
+/* .icon i{
     float: left;
     font-size: 48px;
     color: #7fffef;
+} */
+.steps-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.steps-sec{
+    width: 25%;
+    padding: 40px;
+    border-left: 1px solid #d4e9e6;
+    border-bottom: 1px solid #d4e9e6;
+    margin: -1px;
+}
+.steps{
+    margin-top: 125px;
+    background-color: #f2f9f8;
+    padding: 50px 0 40px 0;
+}
+.steps-flex span{
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1bac91;
 }
