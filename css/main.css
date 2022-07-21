@@ -133,3 +133,113 @@ display: flex;
     font-weight: 400;
     color: #1bac91;
 }
+.feature-container{
+    display: flex;
+    padding: 60px 0;
+    overflow: hidden;
+    margin-left: 65px;
+}
+.feature-side-1{
+    opacity: 1;
+    transform: translateZ(0);
+    border: 0;
+    padding: 20px;
+    transition: 0.3s;
+    color: #21413c;
+}
+.services-container{
+    background-color: #f2f9f8;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.service-heading{
+    padding-bottom: 40px;
+    text-align: center;
+    opacity: 1;
+    transform: translateZ(0);
+}
+.service-options{
+    display: flex;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;   
+}
+.service-icon {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+.text-1 p{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.text-2 p{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.text-3 p{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.text-4 p{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.text-1 h3{
+    color: #111;
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+.text-2 h3{
+    color: #111;
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+.text-3 h3{
+    color: #111;
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+.text-4 h3{
+    color: #111;
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
