@@ -243,3 +243,15 @@ display: flex;
     line-height: 1.2;
     text-align: center;
 }
+.testimonial{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.test-container{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.test-title{
+    padding-bottom: 40px;
+    text-align: center;
+}
