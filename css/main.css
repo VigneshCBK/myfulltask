@@ -2,10 +2,16 @@
     height: 70px;
     transition: all 0.5s;
     z-index: 997;
-    background: #000;
+    background:rgb(252, 252, 252);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    right: 0px;
+    border: radius 5px;
+    box-shadow: #ccc 0 0 17px;
 }
 .logo h1{
-    color: aliceblue;
+    color:rgba(118, 36, 36, 0.8);
     font-size: 30px;
     margin: 0;
     padding: 6px 0;
@@ -15,11 +21,14 @@
     text-transform: uppercase;
     margin-right: 600px;
 }
+.logo{
+    padding: 10px;
+}
 .navigation ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    word-spacing: 5px;
+    word-spacing: 10px;
 }
 .navigation ul li{
     display: inline-block;
@@ -27,7 +36,7 @@
 .navigation ul li a{
     padding: 12px 0;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(118, 36, 36, 0.8);
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
@@ -73,15 +82,17 @@
     color: #fff;
     cursor: pointer;
     text-decoration: none;
+    border-radius: 10px;
     transition: 0.5s;
     border: 2px solid #fff;
-    background-color: chartreuse;
+    background-color:rgb(250, 207, 127);
     overflow: visible;   
 }
 .side-1 img{
     max-width: 70%;
     height: auto;
     margin-left: 100px;
+    border-radius: 5px;
 }
 .side-2 h3{
     font-weight: 400;
@@ -171,17 +182,16 @@ display: flex;
     border-bottom: 3px solid #fff;   
 }
 .service-icon {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
     padding: 30px;
     position: relative;
     overflow: hidden;
+    margin: 0;
     background: #fff;
     transition: all 0.3s ease-in-out;
     border-radius: 15px;
     text-align: center;
     border-bottom: 3px solid #fff;
+    box-shadow: #ccc 5px;
 }
 .text-1 p{
     font-size: 15px;
@@ -283,4 +293,46 @@ display: flex;
 }
 .test-img{
     width: 33%;
+}
+.port-nav {
+    text-decoration: none;
+    margin-bottom: 0 auto 15px auto;
+    text-align: center;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+.port-container{
+    background-color: #f2f9f8;
+}
+.port-head{
+    text-align: center;
+    opacity: 1;
+    transform: translateZ(0);
+    padding-bottom: 40px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    padding: 15px;
+}
+
+.port-nav ul li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444444;
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: #fff;
+    margin-inline: -9px;
+    border-radius: 15px;
+}
+.port-imgs{
+    left: 0px;
+    top: 341.987px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
