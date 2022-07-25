@@ -420,4 +420,12 @@ display: flex;
     margin-top: 40px;
     margin-left: 76px; 
 }
-
+.cont-icon{
+display: flex;
+}
+.cont-head{
+    text-align: center;
+}
+.cont-side1{
+    margin-left: 75px;
+}
